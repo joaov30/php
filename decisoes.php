@@ -1,18 +1,16 @@
 <?php
 
-$idade = 18;
+$idade = 22;
+$acompanhantes = 3;
 
-
-$acompanhado = 1;
-
-echo "Você só pode entrar se tiver a partir de 18 anos." . PHP_EOL;
+    echo "Você só pode entrar se tiver a partir de 18 anos." . PHP_EOL;
 
 if ($idade >= 18){
     echo "Você tem $idade anos". PHP_EOL;
     echo 'Pode entrar';
 }
-elseif($idade < 18 and $acompanhado == 1){
-    echo "Você é menor de idade, porem esta acompanhado". PHP_EOL;
+elseif($idade < 18 and $acompanhantes >= 1){
+    echo "Você é menor de idade, porem esta acompanhado de $acompanhantes pessoas". PHP_EOL;
     echo "Pode entrar";
 }else{
     echo "Você é menor de idade. Entrada proibida"
@@ -21,5 +19,5 @@ elseif($idade < 18 and $acompanhado == 1){
     . PHP_EOL;
     
 }
-echo "". PHP_EOL;
-echo "Adeus!";
+    echo "". PHP_EOL;
+    echo "Adeus!";
