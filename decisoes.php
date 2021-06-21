@@ -9,7 +9,7 @@ if ($idade >= 18){
     echo "Você tem $idade anos". PHP_EOL;
     echo 'Pode entrar';
 }
-elseif($idade < 18 and $acompanhantes >= 1){
+elseif($idade >= 16 and $acompanhantes >= 1){
     echo "Você é menor de idade, porem esta acompanhado de $acompanhantes pessoas". PHP_EOL;
     echo "Pode entrar";
 }else{
