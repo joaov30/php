@@ -13,7 +13,17 @@ $contasCorrentes = [
     12345678912 => [
         'titular' => 'Alan',
         'saldo' => 300
-    ]
+    ] 
+    ];
+    
+    $contasCorrentes[] = [
+        'titular' => 'Claudia',
+        'saldo'   => 2000
+    ];
+
+    $contasCorrentes[] = [
+        'titular' => 'Alisson',
+        'saldo'   => 20002
     ];
 
 foreach($contasCorrentes as $cpf => $conta) {
