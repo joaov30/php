@@ -1,15 +1,15 @@
 <?php
 
 $conta1 = [
-    'titular' => 'Joao',
+    'titular' => 'Vinicius',
     'saldo' => 1000
 ];
 $conta2 = [
-    'titular' => 'Mariza',
+    'titular' => 'Maria',
     'saldo' => 10000
 ];
 $conta3 = [
-    'titular' => 'Bernado',
+    'titular' => 'Alberto',
     'saldo' => 300
 ];
 
